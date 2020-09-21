@@ -1,0 +1,27 @@
+{
+  "name": "apitesting",
+  "version": "1.0.0",
+  "description": "Mocha and axios, chai API automates tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm --file src/utils/globalHooks.js --timeout 5000 src/tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramzap/MochaAxiosAndChaiApiTests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramzap/MochaAxiosAndChaiApiTests/issues"
+  },
+  "homepage": "https://github.com/ramzap/MochaAxiosAndChaiApiTests#readme",
+  "dependencies": {
+    "axios": "0.20.0",
+    "chai": "4.2.0",
+    "chai-http": "4.3.0",
+    "dotenv": "8.2.0",
+    "esm": "3.2.25",
+    "mocha": "8.1.3"
+  }
+}
